@@ -19,7 +19,7 @@ DebugConsole::DebugConsole()
     AllocConsole();
     freopen("CONIN$", "r", stdin);
     freopen("CONOUT$", "w", stdout);
-    freopen("CONERR$", "w", stderr);
+    freopen("CONOUT$", "w", stderr);
 }
 DebugConsole::~DebugConsole()
 {

@@ -1,7 +1,7 @@
 #pragma once
 #include <windef.h>
 
-#ifdef _DEBUG
+#if defined(_DEBUG) || defined(DEBUGCONSOLE_RELEASE_ON)
 
 #ifdef UNICODE
 #define DebugConsolePrintf DebugConsolePrintfW

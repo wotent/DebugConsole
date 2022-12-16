@@ -1,4 +1,4 @@
-#ifdef _DEBUG
+#if defined(_DEBUG) || defined(DEBUGCONSOLE_RELEASE_ON)
 
 #include <windows.h>
 #include <stdio.h>
